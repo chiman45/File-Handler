@@ -1,0 +1,7 @@
+echo # Ignore Python bytecode > .gitignore
+echo __pycache__/ >> .gitignore
+echo *.pyc >> .gitignore
+echo # Ignore OS generated files >> .gitignore
+echo .DS_Store >> .gitignore
+echo # Ignore virtual environment folder >> .gitignore
+echo venv/ >> .gitignore
